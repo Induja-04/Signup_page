@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-5">
+  <div class="container col-md-6">
+    <h2>User Profile</h2>
+
+    <input type="text" id="name" class="form-control my-2" placeholder="Name" readonly />
+    <input type="email" id="email" class="form-control my-2" placeholder="Email" readonly />
+    <input type="number" id="age" class="form-control my-2" placeholder="Age" />
+    <input type="date" id="dob" class="form-control my-2" placeholder="Date of Birth" />
+    <input type="text" id="contact" class="form-control my-2" placeholder="Contact" />
+
+    <button id="saveBtn" class="btn btn-primary w-100">Update Profile</button>
+    <button id="logoutBtn">Logout</button>
+    <p class="mt-2"><a href="login.html" id="logout">Logout</a></p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/profile.js"></script>
+
+</body>
+</html>
